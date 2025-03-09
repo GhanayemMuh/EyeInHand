@@ -1,3 +1,3 @@
-Print your own ChArUco board to use in the calibration process.
-Use capture_poses.py for capturing different poses for the calibration process and their corresponding RGB images of the calibration target. Make sure that in the captured poses each 2 consecutive poses are as different from eachother as they can in terms of Joint axises in atleast 2 joints out of the 6 for accurate calibration.
-Use calibration.py after capturing the poses and their corresponding calibration target images to perform the Eye in Hand calibration. RGBImgs and T_base2ee folders should be populated with the correct data. Make sure each pose correctly corresponds to the matching image.
+* Print your own ChArUco board to use in the calibration process.
+* Use capture_poses.py for capturing different poses for the calibration process and their corresponding RGB images of the calibration target. Make sure that in the captured poses each 2 consecutive poses are as different from eachother as they can in terms of Joint axises in atleast 2 joints out of the 6 for accurate calibration.
+* Use calibration.py after capturing the poses and their corresponding calibration target images to perform the Eye in Hand calibration. RGBImgs and T_base2ee folders should be populated with the correct data. Make sure each pose correctly corresponds to the matching image.
